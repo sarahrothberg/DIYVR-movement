@@ -10,7 +10,7 @@ public class AnimateByScriptExample : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.Translate (Vector3.forward * 3f * Time.deltaTime);
+//		transform.Translate (Vector3.forward * 3f * Time.deltaTime);
 
 			if (Input.GetMouseButton (0)) {
 			//rotate by 45 degrees once per frame update

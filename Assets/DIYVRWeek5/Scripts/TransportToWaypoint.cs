@@ -4,10 +4,10 @@ using System.Collections;
 public class TransportToWaypoint : MonoBehaviour {
 	public GameObject waypointPrefab; 
 
-	GameObject Player; 
+	public GameObject Player; 
 
 	void Start(){
-		Player = GameObject.Find("GVRCam");
+	//	Player = GameObject.Find("GVRCam");
 	}
 
 	public void Transport(){
